@@ -20,7 +20,6 @@ numeros.push(readlinesync.questionFloat('Digite um numero: '))
 
 // Adicionamos um ou mais elementos no inicio da fila
 numeros.unshift(2, 4.5, 8, 9)
-
 console.table(numeros)
 
 // Verificamos se um numero existe na Coleção
@@ -31,5 +30,4 @@ console.log("\nQual é indice do numero 3 no array? ", numeros.indexOf(3))
 
 // Removemos um numero da Coleção
 numeros.splice(numeros.indexOf(10), 1)
-
 console.table(numeros)
